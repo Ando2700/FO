@@ -12,8 +12,8 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-    <link rel="{{ asset('css/bootsstrap.css') }}">
-    <link rel="{{ asset('css/bootsstrap-grid.css') }}">
+    <link rel="{{ asset('css/bootstrap.css') }}">
+    <link rel="{{ asset('css/bootstrap-grid.css') }}">
     <link rel="{{ asset('css/bootstrap-utilities.css') }}">
     <link rel="{{ asset('css/bootstrsp-reboot.css') }}">
 
