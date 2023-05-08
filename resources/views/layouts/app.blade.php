@@ -12,13 +12,14 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
+    <link rel="{{ asset('css/bootsstrap.css') }}">
+    <link rel="{{ asset('css/bootsstrap-grid.css') }}">
+    <link rel="{{ asset('css/bootstrap-utilities.css') }}">
+    <link rel="{{ asset('css/bootstrsp-reboot.css') }}">
+
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <script>
-        // function confirmer(){
-        //     var res=confirm("Etes vous sur de supprimer ce post")
-        // }
-    </script>
+
 </head>
 <body>
     <div id="app">
@@ -78,5 +79,11 @@
             @yield('content')
         </main>
     </div>
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
+    <script src="{{ asset('js/pooper.js') }}"></script>
+
 </body>
 </html>
